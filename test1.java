@@ -5,7 +5,7 @@ public class test1 {
     public static final String ALPHABET_LOWER = new String(ALPHABET_UPPER.toLowerCase());
     public static final int ALPHABET_LENGTH = ALPHABET_UPPER.length();
 
-    public static void main(String[] args)  {
+    public static void main(String[] args)  { 
 
         String u = "I should have known that you would have a perfect answer for me!!!";
         String v = "J vltasl rlhr zdfog odxr ypw atasl rlhr p gwkzzyq zntyhv lvz wp!!!";
@@ -59,7 +59,7 @@ public class test1 {
 
     }
 
-    public static String movingShift(String s, int shift){
+    public static String movingShift(String s, int shift){ // какой принцип разбияния на строки так и не понял
         char[] chars = s.toCharArray();
         StringBuilder result = new StringBuilder("");
 
